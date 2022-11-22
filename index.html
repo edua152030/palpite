@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Copa Divimed</title>
+</head>
+<body>
+
+    <div id="divPrincipal" >
+
+        <img  id="fundo" src="./images/fundo-01.png" alt="imagem copa" srcset="">
+        <img  id="logoPrincipal" src="./images/logo-01.png" alt="logo do hexa">
+
+       <form id='palpite' method="POST">
+
+        <p>DIGITE AQUI SEU CNPJ<p>
+        <input type="text" name="cnpj" id="cnpj" class="texto" value="1">
+        <br><br>
+        <label for="brasil">BRASIL</label><br>
+        <input type="number" name="brasil" id="brasil" class="texto" value="1">
+        <br>X<br>
+        <input type="number" name="adversario" id="adversario" class="texto" value="1"><br>
+        <label for="brasil">SERVIA</label>
+        
+        <br><br>
+        <button onclick="acao()" >Enviar</button>
+       </form>
+              
+
+        <img  id="frase" src="./images/FRASE-01.png" alt="frase da copa" srcset="">
+    </div>
+    
+   
+</body>
+
+<script src="./script/index.js"></script>
+
+</html>
